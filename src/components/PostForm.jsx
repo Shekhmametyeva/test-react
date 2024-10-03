@@ -21,6 +21,7 @@ function PostForm({createPost}) {
 
     return (
         <form action="">
+            <h2 style={{textAlign: 'center'}}>Создание поста</h2>
             <MyInput 
             value={post.title} 
             onChange={e => setPost({...post, title: e.target.value})} 
